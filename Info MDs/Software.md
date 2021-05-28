@@ -6,7 +6,7 @@
 
 => 1. MPV
 
-*[Website](https://www.videolan.org/vlc/)
+* [Website](https://www.videolan.org/vlc/)
 
 * Popular Andriod Fork [Google Play](https://play.google.com/store/apps/details?id=is.xyz.mpv) - [F-Driod](https://f-droid.org/packages/is.xyz.mpv)
 
