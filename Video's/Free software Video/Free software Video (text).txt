@@ -1,0 +1,49 @@
+===============================================================================================
+Freie Software
+===============================================================================================
+Freie Software hat soziemlich keine Nutzungsbedingungen,
+keinen Preis, keine System Anforderungen und ist Open Source,
+Das heißt, dass jeder den Quellcode anschauen kann. 
+In diesem Fall heißt das sogar, dass man die Software selbst vertreiben darf
+bzw. dass man die Software verändern und selbst vertreiben darf.
+Wie Richard Stallman sagen würde:
+It's not free as in GRATIS. It's free as in Freedom!
+===============================================================================================
+Warum sollte man freie Software nutzen?
+===============================================================================================
+Erst eine Kurze Einleitung:
+Tiere haben besondere Fähigkeiten Z.B.: Ein Krameleon kann die Farbe seiner 
+Haut ändern. Menschen haben die Fähigkeiten zu denken bzw. 
+"Erweiterungen" für ihren Körper zu erfinden. Bspw.: Feuer um Essen zu braten, 
+Flugzeuge um lange strecken zu Reisen oder auch Computer.
+Ich finde es sehr beängstigend, dass diese Erweiterung durch eine riesige manipulative 
+Firma gesteuert wird, die nur Geld verdienen möchte und überall Hintertürchen
+für die NSA einbaut.
+Außerdem sind Leute dieser sozialen Bewegung dafür, dass Software und besonders Wissen für Jeden 
+zu Verfügung stehen sollte, darum ist auch vieles in diesem Bereich kostenlos.
+Wikipedia folgt diesem Motto
+Dadurch, dass free software Open Source ist und täglich viele Millionen Leute sich den Code 
+anschauen, gibt es viel weniger Bugs und Security Probleme. In freier software gibt es auch keine 
+tracking fetures, wie cookies im Web. Diese software ist auch nutzerorientiert, da die Entwickler
+meistens durch Spenden von Nutzern finanziert werden.
+===============================================================================================
+Du benutzt warscheinlich schon free Software
+===============================================================================================
+Nur ein Paar Beispiele:
+-Fire-Fox ist FOSS, dass heißt 'Free and Open Source Software'
+-Andriod ist eine Linux Distribution. Andriod ist FOSS und GNU/Linux schon erst recht
+-VLC ist FOSS
+-GIMP ist FOSS 
+-AMD treiber, auch bekannt als MESA sind FOSS
+===============================================================================================
+Danke fürs Zuhören und in der Beschreibung sind noch ein paar Hyperlinks, die ihr 
+euch anschauen könnt.:                                                                          
+-IFOSSF																						   
+https://www.ifossf.org/																		  
+-Android Open Source Project (AOSP) 														   
+https://source.android.com/																	   
+-Vorteile von Freie(r) Software																   
+https://www.gnu.org/philosophy/practical.html												   
+-Wikipedia																					   
+https://en.wikipedia.org/wiki/Free_and_open-source_software									   
+===============================================================================================
