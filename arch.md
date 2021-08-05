@@ -91,13 +91,13 @@ or 'mkfs.ext4 /dev/nvme1' and 'mkfs.ext4 /dev/nvme2' and so on...
 * then run 'genfstab -U /mnt >> /mnt/etc/fstab'
 
 ### chroot
-* run: 'arch-chroot /mnt /bin/bin'
+* run: 'arch-chroot /mnt /bin/bash'
 * now we're finialy in the new Arch install. NOT on the USB or DVD anymore!
 * run: 'pwd' if it outputs '/' everyting worked perfect!
 
 ### installing the networkmanager and grub2 (+ bash-completion)
 * now we're installing the networkmanager so we have proper  access to the internet and we're installing our boot-loader 'grub' so our system can boot!
-* run 'pacman -S networkmanager grub bash-completion dosfstools osprober mtools'
+* run 'pacman -S networkmanager grub bash-completion dosfstools os-prober mtools'
 * then it's going to prompt you if you want to install these packages: type 'y' and hit enter
 * now we will tell systemd to start the networkmanager at boot
 * run: 'systemctl enable NetworkManager'
@@ -124,7 +124,7 @@ or 'mkfs.ext4 /dev/nvme1' and 'mkfs.ext4 /dev/nvme2' and so on...
 * run: 'nano /etc/locale.gen' (or 'vim /etc/locale.gen')
 * now arrow down, find your language and uncomment it  (uncomment means you need to remove the '#' at the start of the line!)
 * then save the file (in nano: 'CRTL+S, CRTL+X' | in vim: ':wq')
-* after that run: 'locale gen'
+* after that run: 'locale-gen'
 * then: 'nano /etc/locale.conf' (this is a new file, so it's empty!)
 * type: 'LANG={your locale}.UTF-8' (for example: 'LANG=en-US.UTF-8')
 * then save the file like you did before (in nano: 'CRTL+S, CRTL+X' | in vim: ':wq')
@@ -147,7 +147,7 @@ or 'mkfs.ext4 /dev/nvme1' and 'mkfs.ext4 /dev/nvme2' and so on...
 
 ### timezone
 * setting the timezone
-* run: 'ln -sf /usr/share/zoneinfo/{America, Europe,... *use TAB*}/{City} /etc/localtime' (for me this would be: 'n -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime' }
+* run: 'ln -sf /usr/share/zoneinfo/{America, Europe,...use TAB*}/{City} /etc/localtime' (for me this would be: 'ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime' }
 * run: 'exit'
 * then: 'umount -R /mnt'
 * run: 'reboot'
